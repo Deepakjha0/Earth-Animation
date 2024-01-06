@@ -1,0 +1,23 @@
+#space{
+    width: 20%;
+    margin: 110px auto;
+}
+#space img{
+    width: 100%;
+    transition: transform 10s ease-in  ;
+    background-size: cover;
+}
+#space img:hover{
+    transform: rotate(360deg) scale(1.5)
+
+}
+#space:hover{
+    transition: all ease 10s;
+}
+body{
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxMqRpyj19R-scPCpUTRHIAt7WhFUrexLiMR6xZbqOwcAzlzK-62yA3X5AECoSvvE1nb8&usqp=CAU');
+}
+#space h1{
+    color: lightslategray;
+    text-align: center;
+}
